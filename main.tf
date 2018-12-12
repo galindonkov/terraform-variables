@@ -4,6 +4,6 @@ variable "best_soccers" {
   default     = [ "Pele", "Ronaldo", "Mesi", "Maradona", "Gundi" ]
 }
 
-output "Best players of all time" {
+output "Best_players_of_all_time" {
   value = "${var.best_soccers}"
 }
